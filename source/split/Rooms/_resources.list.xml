@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="처음" type="RESOURCE"/>
+  <resource filename="대격전" name="대격전 " type="RESOURCE"/>
+</resources>

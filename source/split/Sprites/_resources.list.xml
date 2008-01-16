@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="포토 캐논" type="RESOURCE"/>
+  <resource name="질럿" type="RESOURCE"/>
+  <resource name="클릭질럿" type="RESOURCE"/>
+  <resource name="움직이지마" type="RESOURCE"/>
+  <resource name="마린" type="RESOURCE"/>
+  <resource name="포토캐논공격위치" type="RESOURCE"/>
+  <resource name="포토캐논미사일" type="RESOURCE"/>
+  <resource name="점" type="RESOURCE"/>
+  <resource name="다른점" type="RESOURCE"/>
+  <resource name="공격질럿" type="RESOURCE"/>
+  <resource name="피" type="RESOURCE"/>
+  <resource name="마린미사일" type="RESOURCE"/>
+  <resource name="레이스" type="RESOURCE"/>
+  <resource name="레이스미사일" type="RESOURCE"/>
+</resources>

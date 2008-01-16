@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="포토캐논" type="RESOURCE"/>
+  <resource name="질럿" type="RESOURCE"/>
+  <resource name="object3" type="RESOURCE"/>
+  <resource name="object4" type="RESOURCE"/>
+  <resource name="object7" type="RESOURCE"/>
+  <resource name="클릭질럿" type="RESOURCE"/>
+  <resource name="dna" type="RESOURCE"/>
+  <resource name="akfls" type="RESOURCE"/>
+  <resource name="포토캐논공격위치" type="RESOURCE"/>
+  <resource name="전보요!" type="RESOURCE"/>
+  <resource name="포토캐논미사일" type="RESOURCE"/>
+  <resource name="배경음" type="RESOURCE"/>
+  <resource name="변수그리기" type="RESOURCE"/>
+  <resource name="공격질럿" type="RESOURCE"/>
+  <resource name="피" type="RESOURCE"/>
+  <resource name="생산" type="RESOURCE"/>
+  <resource name="마린미사일" type="RESOURCE"/>
+  <resource name="파괴수등" type="RESOURCE"/>
+  <resource name="공격변수" type="RESOURCE"/>
+  <resource name="레이스미사일" type="RESOURCE"/>
+  <resource name="레이스" type="RESOURCE"/>
+  <resource name="생산2" type="RESOURCE"/>
+  <resource name="기달기달" type="RESOURCE"/>
+</resources>
