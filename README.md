@@ -1,6 +1,8 @@
 # Photon Cannon Defense
 
-A StarCraft themed defense game where you protect Photon Cannons from waves of Marines and Wraiths. It was made to check whether drag selection and move orders could be done.
+[한국어](README.ko.md)
+
+A StarCraft-themed defense game where you protect Photon Cannons from waves of Marines and Wraiths. I made it to see whether drag selection and move orders would work.
 
 <p>
   <img src="docs/screenshots/screenshot-1.png" width="480" alt="Gameplay">
@@ -9,18 +11,18 @@ A StarCraft themed defense game where you protect Photon Cannons from waves of M
 
 ## How to play
 
-Download from Releases and run it.
+Download it from Releases and run it.
 
-Drag with the left button to select several Zealots at once and right click to give a move order. Marines and Wraiths keep coming, so keep the Photon Cannons from being destroyed.
+Left-click and drag to select several Zealots at once, then right-click to give a move order. Marines and Wraiths keep coming, so you have to stop them before they destroy the Photon Cannons.
 
-Losing 3 buildings is a defeat. At 40 kills you get extra resources and a Zealot, and at 80 kills the enemies switch to Wraiths. Destroyed buildings and kills are shown in the window title bar.
+You lose when 3 buildings are destroyed. At 40 kills you get extra resources and a Zealot, and at 80 kills the enemies switch to Wraiths. The window title bar shows the number of destroyed buildings and kills.
 
 
 ## How it works
 
-Drag selection is two global variables and coordinate comparisons. When the mouse button goes down, that point's x and y are stored in globals and the selection box is drawn. When the button is released, every Zealot compares its own coordinates against the stored point and the current mouse point, four checks for each drag direction, and if it passes it changes itself into the selected Zealot object.
+Drag selection uses two global variables and coordinate comparisons. When the mouse button goes down, the game stores that point's x and y in the global variables and draws the selection box. When the button is released, every Zealot checks whether its own coordinates fall between the stored point and the current mouse point. It makes four comparisons for each drag direction, and if the check passes, it turns itself into the selected Zealot object.
 
-Selection is not held in a variable but expressed by object type.
+The game tells selected Zealots apart by object type instead of using a variable.
 
 
 ## Files
@@ -35,4 +37,4 @@ Selection is not held in a variable but expressed by object type.
 
 ## License
 
-CC BY-NC-ND 4.0. Unmodified copies may be shared for noncommercial purposes with attribution. Modified versions and commercial use are not allowed. Bundled libraries, graphics, sounds, and maps made by other people keep their own rights. See [LICENSE](LICENSE).
+CC BY-NC-ND 4.0. Unmodified copies may be shared for noncommercial purposes with attribution. Distributing modified versions and commercial use are not allowed. Bundled libraries, graphics, sounds, and maps made by other people keep their own rights. See [LICENSE](LICENSE).
